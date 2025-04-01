@@ -1,0 +1,81 @@
+.latest-match-card {
+  background-color: #0f172a;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .latest-match-card {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.latest-match-team {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .latest-match-team {
+    font-size: 36px;
+  }
+}
+.latest-match-sub-heading {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .latest-match-sub-heading {
+    font-size: 20px;
+  }
+}
+.latest-match-description {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 8px;
+}
+@media (min-width: 768px) {
+  .latest-match-description {
+    font-size: 14px;
+  }
+}
+.date {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .date {
+    font-size: 28px;
+  }
+}
+.latest-match-image {
+  width: 120px;
+}
+.latest-match-text-image-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .latest-match-text-image-container {
+    width: 60%;
+  }
+}
+
+hr {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  hr {
+    display: none;
+  }
+}
